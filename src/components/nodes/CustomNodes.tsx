@@ -1,6 +1,5 @@
 import { Handle, Position } from '@xyflow/react';
 import { Play, CheckSquare, ShieldCheck, Cpu, SquareTerminal } from 'lucide-react';
-import { useWorkflowStore } from '../../store/workflowStore';
 
 // Common wrapper for nodes
 const NodeWrapper = ({ title, icon, colorClass, selected, children }: any) => (

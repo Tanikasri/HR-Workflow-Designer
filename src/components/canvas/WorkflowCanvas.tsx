@@ -1,5 +1,5 @@
 import { useCallback, useRef } from 'react';
-import { ReactFlow, Background, Controls, MiniMap, addEdge } from '@xyflow/react';
+import { ReactFlow, Background, Controls, MiniMap } from '@xyflow/react';
 import { useWorkflowStore } from '../../store/workflowStore';
 import { nodeTypes } from '../nodes/CustomNodes';
 import { v4 as uuidv4 } from 'uuid';

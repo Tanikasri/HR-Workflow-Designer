@@ -1,8 +1,7 @@
 import { useWorkflowStore } from '../../store/workflowStore';
 import { NodeType } from '../../types/workflow.types';
 import { TEMPLATES } from '../../constants/defaultWorkflows';
-import { Play, CheckSquare, ShieldCheck, Cpu, SquareTerminal, Download, Upload, Trash2, Undo, Redo } from 'lucide-react';
-import { v4 as uuidv4 } from 'uuid';
+import { Play, CheckSquare, ShieldCheck, Cpu, SquareTerminal, Download, Trash2, Undo, Redo } from 'lucide-react';
 
 export default function Sidebar() {
   const { setNodes, setEdges, nodes, edges, undo, redo, historyIndex, history } = useWorkflowStore();

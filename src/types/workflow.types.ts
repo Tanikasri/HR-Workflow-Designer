@@ -3,6 +3,7 @@ export type NodeType = 'startNode' | 'taskNode' | 'approvalNode' | 'automatedNod
 export interface WorkflowNodeData {
   title: string;
   type: NodeType;
+  isValid?: boolean;
   // Common
   description?: string;
   // Start Node
@@ -19,6 +20,7 @@ export interface WorkflowNodeData {
   // End Node
   endMessage?: string;
   summaryToggle?: boolean;
+  [key: string]: unknown;
 }
 
 export interface WorkflowNode {

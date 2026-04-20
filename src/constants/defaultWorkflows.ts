@@ -1,4 +1,4 @@
-import { Node, Edge } from '@xyflow/react';
+import { Edge } from '@xyflow/react';
 
 export const TEMPLATES: Record<string, { nodes: any[], edges: Edge[] }> = {
   onboarding: {

@@ -8,7 +8,7 @@ export default function NodeFormPanel() {
   const selectedNode = nodes.find(n => n.id === selectedNodeId);
   const [actions, setActions] = useState<{id: string, name: string}[]>([]);
 
-  const { register, handleSubmit, reset, watch } = useForm();
+  const { register, handleSubmit, reset } = useForm();
 
   useEffect(() => {
     if (selectedNode) {
