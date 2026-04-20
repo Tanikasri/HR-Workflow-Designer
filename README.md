@@ -18,28 +18,34 @@ https://Tanikasri.github.io/HR-Workflow-Designer/
 
 ---
 
-## ✨ Features
+## ✨ Powerful Features
 
-### 🎨 Visual Orchestration
-*   **Drag-and-Drop Canvas**: Powered by `@xyflow/react` for smooth, high-performance graph interaction.
-*   **5 Specialized Node Types**:
-    *   🏁 **Start**: Entry point for all processes.
-    *   📋 **Task**: Manual steps for HR representatives.
-    *   ⚖️ **Approval**: Branching logic for manager/finance sign-offs.
-    *   🤖 **Automated**: System-triggered hooks for API integrations.
-    *   🛑 **End**: Final terminal states.
-*   **Auto-Layout**: Instantly organize complex messy graphs using the Integrated **Dagre** layout engine.
+### 🎨 Visual Process Orchestration
+*High-performance canvas architecture for complex HR business logic.*
 
-### 🛡️ Built-in Intelligence
-*   **Strict Graph Validation**: Real-time detection of computational cycles, isolated nodes, and missing terminal states.
-*   **Simulation Engine**: Step-by-step execution module that mimics real-world latency and status outcomes.
-*   **Live Status Badges**: Visual indicators on nodes to highlight validation errors or simulation progress.
+- **Interactive Node-Graph Environment**: Built with `@xyflow/react`, providing a butter-smooth 60fps experience for large-scale enterprise graphs.
+- **Polymorphic Node System**: Five specialized node types tailored for human resources:
+  - 🏁 **Start Event**: standardized entry point for every workflow.
+  - 📋 **Employee Task**: Manual steps for representatives with assignee assignment.
+  - ⚖️ **Approval Gate**: Sophisticated branching logic for manager and finance sign-offs.
+  - 🤖 **Automated Hook**: Low-code system-triggered hooks for API integrations.
+  - 🛑 **Terminal State**: Formalized end-of-process paths with custom messaging.
+- **Intelligent Auto-Layout**: Transform chaotic node placements into professional maps with a single click using the integrated **Dagre DAG algorithm**.
 
-### 🛠️ Developer & Power-User Tools
-*   **State Persistence**: Full Undo/Redo history and LocalStorage auto-save integration.
-*   **Serialization**: One-click JSON Import/Export for workflow portability.
-*   **Smart Search**: Instantly find and highlight nodes in large-scale enterprise workflows.
-*   **Templates**: Prebuilt industry-standard templates (Onboarding, Leave Approval, Document Verification).
+### 🛡️ Institutional Integrity
+*The system for teams that can't afford logical errors.*
+
+- **Strict Validation Engine**: Real-time detection of logical fallacies, including **computational cycles**, **isolated nodes**, and **missing terminal states**.
+- **Topological Simulation**: Test your logic before deployment. Our engine mimics real-world latency and outcome probabilities with a step-by-step execution log.
+- **Real-Time Status Indicators**: Live visual badges and highlight effects provide instant feedback on node configurations and simulation progress.
+
+### 🛠️ Developer & Power-User Suite
+*Built for speed, reliability, and portability.*
+
+- **Deep State Persistence**: Full **Undo/Redo** stack and **LocalStorage auto-save** layer ensure zero data loss during high-intensity planning sessions.
+- **Universal Serialization**: One-click **JSON Import/Export** to audit, share, or backup workflow configurations across different environments.
+- **Global Search & Focus**: Instantly find and focus on specific nodes in massive workflows with built-in search and high-contrast highlighting.
+- **Production-Ready Templates**: Bootstrap your HR automation in seconds using pre-built templates for Onboarding, Leave Approvals, and Document Verification.
 
 ---
 
