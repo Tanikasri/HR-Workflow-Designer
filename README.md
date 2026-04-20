@@ -14,7 +14,7 @@ A **production-grade visual workflow builder** designed for HR teams to architec
 ---
 
 ## 🚀 Live Demo
-[https://Tanikasri.github.io/HR-Workflow-Designer/](https://Tanikasri.github.io/HR-Workflow-Designer/)
+https://Tanikasri.github.io/HR-Workflow-Designer/
 
 ---
 
