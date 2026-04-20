@@ -62,11 +62,11 @@ A **production-grade visual workflow builder** designed for HR teams to architec
 
 | Workflow Canvas | Node Configuration |
 | :---: | :---: |
-| ![Canvas Placeholder](https://via.placeholder.com/800x450?text=Interactive+Workflow+Canvas) | ![Settings Placeholder](https://via.placeholder.com/800x450?text=Node+Configuration+Panel) |
+| ![Workflow Canvas](./public/screenshots/workflow_canvas.png) | ![Node Configuration](./public/screenshots/node_configuration.png) |
 
 | Simulation Engine | Validation Logic |
 | :---: | :---: |
-| ![Simulation Placeholder](https://via.placeholder.com/800x450?text=Step-by-step+Simulation) | ![Validation Placeholder](https://via.placeholder.com/800x450?text=Graph+Validation+Errors) |
+| ![Simulation Engine](./public/screenshots/simulation_engine.png) | ![Validation Logic](./public/screenshots/validation_logic.png) |
 
 ---
 
